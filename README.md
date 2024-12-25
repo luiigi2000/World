@@ -1,3 +1,4 @@
+##Step 1##
 1.click menu and then the picture of the man to select the character.
 2.click menu to close menu.
 3.click to place down man.
