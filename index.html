@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body{
+            background-color: rgb(0, 100, 0);
+            background-size: cover;
+            height: 100%;
+        }
+        #man{
+            position: absolute;
+            height: 60px;
+        }
+        #menu_man{
+            position: absolute;
+            height: 60px;
+            background-color: rgb(255, 255, 255);
+            border-style:solid;
+        }
+    </style>
+</head>
+<body>
+    <button id = "open_menu" class="button">Menu</button>
+    <div id = "menu">
+        <img id = "menu_man" src = "man.png" draggable="false">
+        <p>Human Male</p>
+    </div>
+    <p id = "console"></p>
+    <img id = "man" src = "man.png" draggable="false">
+    <script src="script.js"></script>
+</body>
+</html>
